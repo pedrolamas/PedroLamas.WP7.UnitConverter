@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <type name="Angulo">
+    <unit name="Graus" factor="360" symbol="&#176;" />
+    <unit name="Radianos" factor="6.283185307179586476925286766559" symbol="rad" />
+    <unit name="Grados" factor="400" symbol="gon" />
+    <unit name="Horas" factor="24" />
+    <unit name="Arcminutos" factor="21600" symbol="&apos;" />
+    <unit name="Arcsegundos" factor="1296000" symbol="&quot;" />
+    <unit name="Revoluções" factor="1" />
+  </type>
+  <type name="Aceleração">
+    <unit name="Centimetros/segundo quadrado" factor="980.665" symbol="cm/s&#178;" />
+    <unit name="Pés/segundo quadrado" factor="32.1740486" symbol="ft/s&#178;" />
+    <unit name="Queda livre" factor="1" symbol="g" />
+    <unit name="Metros/segundo quadrado" factor="9.80665" symbol="m/s&#178;" />
+    <unit name="Polegadas/segundo quadrado" factor="386.088583" symbol="in/s&#178;" />
+  </type>
+  <type name="Área">
+    <unit name="Polegadas quadradas" factor="4014489600" symbol="in&#178;" />
+    <unit name="Pés quadrados" factor="27878400" symbol="ft&#178;" />
+    <unit name="Jardas quadradas" factor="3097600" symbol="yd&#178;" />
+    <unit name="Milhas quadradas" factor="1" />
+    <unit name="Millimetros quadrados" factor="2589988110336" symbol="mm&#178;" />
+    <unit name="Centimetros quadrados" factor="25899881103.36" symbol="cm&#178;" />
+    <unit name="Metros quadrados" factor="258998.8110336" symbol="m&#178;" />
+    <unit name="Quilometros quadrados" factor="2.589988110336" symbol="km&#178;" />
+    <unit name="Acres" factor="640" />
+    <unit name="Ares" factor="25899.8811" symbol="a" />
+    <unit name="Hectares" factor="258.998811" symbol="ha" />
+  </type>
+  <type name="Computador">
+    <unit name="Bit" factor="8796093022208" symbol="bit" />
+    <unit name="Byte" factor="1099511627776" symbol="B" />
+    <unit name="Kilobit" factor="8589934592" symbol="kbit" />
+    <unit name="Kilobyte" factor="1073741824" symbol="kB" />
+    <unit name="Megabit" factor="8388608" symbol="Mbit" />
+    <unit name="Megabyte" factor="1048576" symbol="MB" />
+    <unit name="Gigabit" factor="8192" symbol="Gbit" />
+    <unit name="Gigabyte" factor="1024" symbol="GB" />
+    <unit name="Terabit" factor="8" symbol="Tbit" />
+    <unit name="Terabyte" factor="1" symbol="TB" />
+    <unit name="Disquete (3.5&quot;)" factor="728177.77777778" />
+    <unit name="CD (74 minutes)" factor="1613.1938461538461538461538461538" />
+    <unit name="CD (80 minutes)" factor="1497.9657142857142857142857142857" />
+    <unit name="DVD (1 side, 1 layer)" factor="217.8723404255319148936170212766" />
+    <unit name="DVD (1 side, 2 layer)" factor="119.90632318501170960187353629977" />
+    <unit name="DVD (2 side, 1 layer)" factor="108.9361702127659574468085106383" />
+    <unit name="DVD (2 side, 2 layer)" factor="59.953161592505854800936768149883" />
+  </type>
+  <type name="Energia">
+    <unit name="Calorias" factor="860420.65" symbol="cal" />
+    <unit name="Quilocalorias" factor="860.42065" symbol="kcal" />
+    <unit name="Joules" factor="3600000" symbol="J" />
+    <unit name="Quilojoules" factor="3600" symbol="kJ" />
+    <unit name="Hp-hora" factor="1.34102209" />
+    <unit name="Quilowatt-hora" factor="1" symbol="kW&#183;h" />
+    <unit name="Electronvolts" factor="2.24694351e25" symbol="eV" />
+  </type>
+  <type name="Comprimento">
+    <unit name="Milimetros" factor="1852000" symbol="mm" />
+    <unit name="Centimetros" factor="185200" symbol="cm" />
+    <unit name="Metros" factor="1852" symbol="m" />
+    <unit name="Quilometros" factor="1.85200" symbol="km" />
+    <unit name="Polegadas" factor="72913.3858" symbol="in" />
+    <unit name="Pés" factor="6076.11549" symbol="ft" />
+    <unit name="jardas" factor="2025.37183" symbol="yd" />
+    <unit name="Milhas" factor="1.15077945" symbol="mi" />
+    <unit name="Milhas nauticas" factor="1" symbol="mi" />
+  </type>
+  <type name="Massa">
+    <unit name="Miligramas" factor="1000000000" symbol="mg" />
+    <unit name="Gramas" factor="1000000" symbol="g" />
+    <unit name="Quilogramas" factor="1000" symbol="kg" />
+    <unit name="Toneladas métricas" factor="1" symbol="t" />
+    <unit name="Onças" factor="35273.9619" symbol="oz" />
+    <unit name="Libras" factor="2204.62262" symbol="lb" />
+    <unit name="Pedras" factor="157.473044" />
+  </type>
+  <type name="Potência">
+    <unit name="Watts" factor="1000" symbol="W" />
+    <unit name="Quilowatts" factor="1" symbol="kW" />
+    <unit name="Cavalos" factor="1.34102209" symbol="HP" />
+  </type>
+  <type name="Pressão">
+    <unit name="Atmosferas" factor="1" symbol="at" />
+    <unit name="Bars" factor="1.01325" symbol="bar" />
+    <unit name="Pascals" factor="101325" symbol="Pa" />
+    <unit name="mmHg" factor="760" symbol="mmHg" />
+    <unit name="Libras/polegada quadrada" factor="14.6959488" symbol="psi" />
+  </type>
+  <type name="Temperatura">
+    <unit name="Celsius" factor="1" symbol="&#176;C" />
+    <unit name="Fahrenheit" factor="1.8" displacement="32" symbol="&#176;F" />
+    <unit name="Kelvin" factor="1" displacement="273.15" symbol="K" />
+    <unit name="Rankine" factor="1.8" displacement="491.67" symbol="&#176;R" />
+  </type>
+  <type name="Tempo">
+    <unit name="Segundos" factor="604800" />
+    <unit name="Minutos" factor="10080" />
+    <unit name="Horas" factor="168" />
+    <unit name="Dias" factor="7" />
+    <unit name="Semanas" factor="1" />
+  </type>
+  <type name="Velocidade">
+    <unit name="Quilometros/hora" factor="3.6" symbol="km/h" />
+    <unit name="Metros/segundo" factor="1" symbol="m/s" />
+    <unit name="Milhas/hora" factor="2.23693629" symbol="mph" />
+    <unit name="Pés/segundo" factor="3.2808399" symbol="ft/s" />
+    <unit name="Nós" factor="1.94384449" symbol="knot" />
+  </type>
+</data>

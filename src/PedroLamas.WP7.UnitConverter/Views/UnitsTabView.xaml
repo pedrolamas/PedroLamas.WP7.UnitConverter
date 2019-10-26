@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="PedroLamas.WP7.UnitConverter.Views.UnitsTabView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+
+    <StackPanel x:Name="LayoutRoot" Background="{StaticResource PhoneBackgroundBrush}">
+        <TextBlock>Unit</TextBlock>
+        <toolkit:ListPicker ItemsSource="{Binding Units}" SelectedItem="{Binding UnitA, Mode=TwoWay}" FullModeHeader="UNIT" Style="{StaticResource UnitListPicker}" />
+        <TextBlock>Amount</TextBlock>
+        <TextBox x:Name="AmountA" InputScope="Number" />
+        <TextBlock>Unit</TextBlock>
+        <toolkit:ListPicker ItemsSource="{Binding Units}" SelectedItem="{Binding UnitB, Mode=TwoWay}" FullModeHeader="UNIT" Style="{StaticResource UnitListPicker}" />
+        <TextBlock>Amount</TextBlock>
+        <TextBox x:Name="AmountB" InputScope="Number" />
+    </StackPanel>
+</UserControl>
